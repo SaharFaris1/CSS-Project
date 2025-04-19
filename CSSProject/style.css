@@ -1,0 +1,80 @@
+
+.clicktap {
+    background-color: #499db9;
+    width: 100%;
+    overflow: hidden;
+   margin-top: -10px ;
+   margin-left: -10px;
+   margin-right: -100px;
+
+  }
+  
+  .clicktap a {
+   position: sticky;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+   
+  }
+  .clicktap a:hover {
+    background-color: #a7d2e9;
+    color: black;
+  }
+
+  .clicktap a.active {
+    background-color: #4757c9;
+    color: white;
+  }
+  body{
+    background-image: url("pic.jpg");
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+
+
+
+}
+img{
+    box-shadow: 0 4px 15px #000;
+
+}
+
+p{
+    text-align: center;
+   color: #499db9;
+   font-size: 50;
+   font-weight: bold;
+   padding-top: 20px;
+
+}
+button{
+background-color: #499db9;
+border-radius: 10px;
+border: #000;
+color: #ffffff;
+padding: 10px 20px;
+font-size: small;
+box-shadow: 0 4px 15px #000;
+
+margin-top: -35px;
+
+
+}
+button:hover{
+
+        background-color: #a7d2e9;
+        color: black;
+    
+}
